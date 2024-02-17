@@ -1,8 +1,11 @@
-/*-- Script to list all cities contained in the database hbtn_0d_usa.
-Each record should display: cities.id - cities.name - states.name
-Results must be sorted in ascending order by cities.id
-You can use only one SELECT statement
-The database name will be passed as an argument of the mysql command */
+/*
+-- SCRIPT TO LIST ALL CITIES CONTAINED IN THE DATABASE HBTN_0D_USA.
+
+EACH RECORD SHOULD DISPLAY: CITIES.ID - CITIES.NAME - STATES.NAME
+RESULTS MUST BE SORTED IN ASCENDING ORDER BY CITIES.ID
+YOU CAN USE ONLY ONE SELECT STATEMENT
+THE DATABASE NAME WILL BE PASSED AS AN ARGUMENT OF THE MYSQL COMMAND
+*/
 
 SELECT cities.id, cities.name, states.name
 FROM cities
